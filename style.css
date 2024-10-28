@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header, footer {
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.glow-photo {
+    width: 70px; 
+    height: 70px;
+    border-radius: 70%; 
+    box-shadow: 0 0 10px blue, 0 0 10px blue, 0 0 10px  blue;
+    transition: all 0.3s ease-in-out;
+}
+.glow-photo:hover {
+    box-shadow: 0 0 20px  red, 0 0 15px red, 0 0 20px red;
+    transform: scale(1.05);
+}
+.card {
+    transition: transform 0.2s;
+}
+.card:hover {
+    box-shadow: 0 0 20px red, 0 0 20px red;
+    transform: scale(1.05); 
+}
+.card-body {
+    padding: 20px;
+}
+  

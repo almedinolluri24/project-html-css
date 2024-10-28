@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+            background-color: #1c1c1c;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .photo-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .glow-photo {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 0 20px blue;
+        }
+
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 0 15px blue, 0 0 10px blue;
+            height: 100%; 
+        }
+
+        .card-title {
+            color: #ff6347;
+        }
+
+        .card-text {
+            color: #555;
+        }
+
+        .btn-primary {
+            border-radius: 100px;
+            box-shadow: 0 0 20px red, 0 0 10px red;
+            background-color: red;
+        }
+
+        .card-img-top {
+            max-height: 200px;
+            object-fit: cover; 
+        }
+
+     
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+       
+        .row {
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                margin-bottom: 20px;
+            }
+
+            .card-title {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+
+    <div class="photo-container">
+        <img src="image/image/tek.jpg" alt="Logo Teknologjike" class="glow-photo">
+    </div>
+
+    <main class="container mt-5">
+        <h1>Lajmet e <span>Teknologjisë</span></h1>
+
+        
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/image/din.jpg" class="card-img-top" alt="Artikulli 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Inteligjenca Artificiale (AI)</h5>
+                        <p class="card-text">Sisteme që mësojnë dhe marrin vendime të mençura, si algoritmet e mësimit të thellë dhe robotika.</p>
+                        <a href="https://sq.wikipedia.org/wiki/Inteligjenca_artificiale" class="btn btn-primary">Lexo më shumë</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/image/in.jpg" class="card-img-top" alt="Artikulli 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Realiteti Virtual (VR)</h5>
+                        <p class="card-text">Teknologji immersive që krijojnë përvoja AR dhe VR të plota.</p>
+                        <a href="https://sq.wikipedia.org/wiki/Realiteti_virtual" class="btn btn-primary">Lexo më shumë</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/image/din.jpg" class="card-img-top" alt="Artikulli 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Automatizimi dhe Robotika</h5>
+                        <p class="card-text">Sisteme automatike për të kryer detyra që zakonisht kërkojnë ndërhyrjen njerëzore.</p>
+                        <a href="https://sq.wikipedia.org/wiki/Robotika" class="btn btn-primary">Lexo më shumë</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/image/ich bin.jpg" class="card-img-top" alt="Artikulli 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Blockchain</h5>
+                        <p class="card-text">Teknologji e sigurisë për ruajtjen e të dhënave që është e pamundur të manipulohet.</p>
+                        <a href="https://en.wikipedia.org/wiki/Blockchain" class="btn btn-primary">Lexo më shumë</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/image/hey.jpg" class="card-img-top" alt="Artikulli 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Internet of Things (IoT)</h5>
+                        <p class="card-text">Rrjeti i pajisjeve të lidhura që mund të komunikojnë dhe ndajnë të dhëna.</p>
+                        <a href="https://en.wikipedia.org/wiki/Internet_of_things" class="btn btn-primary">Lexo më shumë</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/image/hello.jpg" class="card-img-top" alt="Artikulli 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Energjia e Rinovueshme</h5>
+                        <p class="card-text">Teknologji që fokusohen në burimet e energjisë së qëndrueshme.</p>
+                        <a href="https://sq.wikipedia.org/wiki/Energjia_e_rip%C3%ABrt%C3%ABritshme" class="btn btn-primary">Lexo më shumë</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/image/mjeksi.jpg" class="card-img-top" alt="Artikulli 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Teknologjia Mjekësore</h5>
+                        <p class="card-text">Pajisjet dhe metodat për diagnostikim dhe trajtim të sëmundjeve.</p>
+                        <a href="https://sq.wikipedia.org/wiki/Teknologjia_biomjek%C3%ABsore" class="btn btn-primary">Lexo më shumë</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/image/transport.jpg" class="card-img-top" alt="Artikulli 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Teknologjia e Transportit</h5>
+                        <p class="card-text">Zhvillimi i mjeteve të transportit si automjetet elektrike dhe anijet hapësinore.</p>
+                        <a href="https://sq.wikipedia.org/wiki/Transporti" class="btn btn-primary">Lexo më shumë</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/image/energy.jpg" class="card-img-top" alt="Artikulli 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Teknologjia e Energjisë</h5>
+                        <p class="card-text">Burime dhe mënyra për të gjeneruar dhe ruajtur energjinë.</p>
+                        <a href="https://sq.wikipedia.org/wiki/Teknologjia_e_energjis%C3%AB" class="btn btn-primary">Lexo më shumë</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
